@@ -1,7 +1,7 @@
 body {
-    font-family: 'Hanken Grotesk', sans-serif;
-    background-color: black;
-    color: white;
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: black;
+  color: white;
 }
 
 .container {
@@ -25,6 +25,7 @@ a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
+  color: white;
 }
 
 a:link {
