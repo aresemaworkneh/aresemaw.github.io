@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
-
 body {
     font-family: 'Hanken Grotesk', sans-serif;
-    background-color: #d4e9eb;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .container {
   display: flex;
   align-items: center;
-  
 }
+
 .link {
   float: right;
 }
@@ -19,10 +17,10 @@ body {
   margin: 0 auto;
 }
 
-
 .content {
   width: 50%;
 }
+
 a {
   outline: none;
   text-decoration: none;
@@ -51,10 +49,11 @@ a:active {
   background: #265301;
   color: #cdfeaa;
 }
-.center
-{
+
+.center {
   text-align: center;
 }
-hr{
+
+hr {
   color: rgb(51, 92, 92);
 }
