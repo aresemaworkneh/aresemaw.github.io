@@ -1,0 +1,115 @@
+body {
+    background-image: url("bg.avif");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: #efeae9;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  /* Existing CSS styles ... */
+
+.grid-item p {
+    display: none;
+  }
+  
+  .grid-item.show p {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  h3 {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .textD {
+    font-weight: bold;
+    text-decoration: underline 6px #e86e0a;
+  }
+  
+  .textB {
+    text-decoration: underline 6px #b986e6df;
+  }
+  
+  .textC {
+
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+  }
+  
+  .grid-item {
+    padding: 50px;
+    background-color: #030303;
+    align-items: center;
+  }
+  
+  h2, h4, h3 {
+    margin: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  
+  nav {
+    padding: 5px;
+    text-align: center;
+    color: #72d8db;
+    font-size: 20px;
+    font-family: "American Typewriter", serif;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: #60dcea;
+    text-decoration: none;
+    font-family: "American Typewriter", serif;
+    align-content: center;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #ded6d5;
+    color: #2c3e50;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    opacity: 0.7;
+  }
+  
+  nav a:active, nav a:visited {
+    color: #60dcea;
+    text-decoration: none;
+  }
+  
